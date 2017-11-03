@@ -2,6 +2,8 @@
 This repository contains everything you would need for simple OpenSSL encryption on z/OS using the AES256 cipher.
 This however, will require that you have access to the OMVS system.
 
+Note: The bash and openssl files in omvs_files are precompiled. All you need to do is upload and run, they should execute no problem.
+
 ### Setup
 1. Copy the files in omvs_files onto your OMVS system.
    1.1 You can change the location, you will just need to update the procedures in the proclib.
