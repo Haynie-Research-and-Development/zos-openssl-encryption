@@ -12,6 +12,6 @@ This however, will require that you have access to the OMVS system.
 
 ![Decrypt JCL](https://raw.githubusercontent.com/Haynie-Research-and-Development/zos-openssl-encryption/master/screenshots/decrypt_jcl.png)
 
-![Encrypted File](https://raw.githubusercontent.com/Haynie-Research-and-Development/zos-openssl-encryption/master/screenshots/encrypted_file.png)
-
 ![Decrypted File](https://raw.githubusercontent.com/Haynie-Research-and-Development/zos-openssl-encryption/master/screenshots/decrypted_file.png)
+
+![Encrypted File](https://raw.githubusercontent.com/Haynie-Research-and-Development/zos-openssl-encryption/master/screenshots/encrypted_file.png)
