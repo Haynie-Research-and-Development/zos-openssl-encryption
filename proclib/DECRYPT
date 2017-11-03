@@ -1,0 +1,8 @@
+//DECRYPT PROC INFILE=,
+//        OUTFILE=,
+//        KEY=
+//DECRYPT  EXEC PGM=BPXBATCH,REGION=0M,TIME=NOLIMIT,
+//         PARM='SH /opt/admin/decryptmvs.sh &INFILE &OUTFILE &KEY'
+//STDOUT   DD SYSOUT=*
+//STDERR   DD SYSOUT=*
+//STDIN    DD DUMMY

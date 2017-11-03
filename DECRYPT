@@ -1,0 +1,21 @@
+//LHAYNIEC  JOB (HAYNIE), 'ENCRYPT DATA',
+//          MSGCLASS=D,CLASS=D,NOTIFY=&SYSUID
+//**********************************************************************
+//* CATEGORY.: CRYPTOGRAPHY
+//* GROUP....: ENCRYPTION
+//* AUTHOR...: LANCE HAYNIE <LANCE@HAYNIEMAIL.COM>
+//* DATE.....: 2017-11-03
+//* PURPOSE..: DECRYPT MVS FILE VIA OPENSSL
+//**********************************************************************
+//* MODIFICATIONS
+//* 2017-11-03 - LHAYNIE - INITIAL VERSION
+//**********************************************************************
+//* INFILE = THE ENCRYPTED FILE
+//* OUTFILE = THE OUTPUT DECRYPTED FILE
+//* KEY = THE ENCRYPTION KEY **DO NOT SAVE THE KEY IN THE JCL**
+//**********************************************************************
+//PROCS JCLLIB ORDER=(HANSOLO.PROD.PROCLIB)
+//DECRYPT   EXEC DECRYPT,
+//          INFILE='LHAYNIE.TEST.FILE2',
+//          OUTFILE='LHAYNIE.TEST.FILE3',
+//          KEY='TESTING'

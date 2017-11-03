@@ -1,0 +1,8 @@
+//ENCRYPT PROC INFILE=,
+//        OUTFILE=,
+//        KEY=
+//ENCRYPT  EXEC PGM=BPXBATCH,REGION=0M,TIME=NOLIMIT,
+//         PARM='SH /opt/admin/encryptmvs.sh &INFILE &OUTFILE &KEY'
+//STDOUT   DD SYSOUT=*
+//STDERR   DD SYSOUT=*
+//STDIN    DD DUMMY

@@ -1,0 +1,70 @@
+#00#IBMOS390_USTAR_VERS=1
+#
+# Archive Name: bash-4.3_b018.170518.tar
+#
+# This file was created by the IBM z/OS pax or tar utility.
+# During the process of creating the archive from which this
+# file was extracted, one or more of the source files to be
+# stored in the archive was determined to have names or
+# attributes that are not supported by the standard USTAR
+# format (as described by POSIX.2 IEEE std 1003.2-1992).
+# To preserve these files or these characteristics,
+# one or more special header files (having the same name as
+# this file) were inserted into the archive.  Those files
+# are recognized by z/OS pax and tar utilities and are
+# used during extraction to restore the files to their
+# original state.
+#
+# The purpose of this file is to summarize the information
+# described by all z/OS special header files stored in
+# the archive so that users with versions of pax or tar
+# that do not support these special header files can
+# manually restore some or all of the files and file
+# attributes described by them.  Note that some file
+# attributes are specific to z/OS and cannot be restored
+# on other platforms.
+#
+# The remainder of this file consists of a set of records
+# corresponding to each special header file stored in the
+# archive.  Each set consists of a record describing the
+# pathname, one or more reasons explaining why the file or
+# attribute could not be stored, and the unix command,
+# or commands, that would be used to restore the file or
+# attribute.  Note that these commands use the pathnames
+# of the file as they existed when archived and may not
+# correspond to the current pathnames on your system.
+#
+# Pathname: ./bin/bashbug
+# Reason:   1. FSUMF191 preserving filetag information.
+# Unix restore command(s):
+chtag -t -c IBM-1047 ./bin/bashbug
+#
+# Pathname: ./share/doc/bash/4.3/CHANGES.ZOS
+# Reason:   1. FSUMF191 preserving filetag information.
+# Unix restore command(s):
+chtag -t -c IBM-1047 ./share/doc/bash/4.3/CHANGES.ZOS
+#
+# Pathname: ./share/doc/bash/4.3/COPYING
+# Reason:   1. FSUMF191 preserving filetag information.
+# Unix restore command(s):
+chtag -t -c IBM-1047 ./share/doc/bash/4.3/COPYING
+#
+# Pathname: ./share/doc/bash/4.3/README
+# Reason:   1. FSUMF191 preserving filetag information.
+# Unix restore command(s):
+chtag -t -c IBM-1047 ./share/doc/bash/4.3/README
+#
+# Pathname: ./share/doc/bash/4.3/README.ZOS
+# Reason:   1. FSUMF191 preserving filetag information.
+# Unix restore command(s):
+chtag -t -c IBM-1047 ./share/doc/bash/4.3/README.ZOS
+#
+# Pathname: ./share/doc/bash/4.3/VERSION.ZOS
+# Reason:   1. FSUMF191 preserving filetag information.
+# Unix restore command(s):
+chtag -t -c IBM-1047 ./share/doc/bash/4.3/VERSION.ZOS
+#
+# Pathname: ./README
+# Reason:   1. FSUMF191 preserving filetag information.
+# Unix restore command(s):
+chtag -t -c IBM-1047 ./README
